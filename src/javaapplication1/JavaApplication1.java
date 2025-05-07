@@ -18,8 +18,10 @@ public class JavaApplication1 {
         System.out.println("sm7eto");
         System.out.println("hola");
        test t = new test();
+       t.test2();
     }
     public static class test {
     public test (){System.out.println("testin");}
+    public void test2(){System.out.println("just another test");}
     }
 }
